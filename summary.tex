@@ -1,0 +1,504 @@
+\documentclass[acmcsur]{acmsmall}
+
+\usepackage{lscape}
+\usepackage{longtable}
+\usepackage{booktabs}
+
+\def\mytitle{Algorithm Selection for Combinatorial Search Problems: A survey}
+\def\myauthor{Lars Kotthoff}
+
+\title{\mytitle}
+\author{\name \myauthor}
+
+\begin{document}
+
+\appendix
+
+\hbadness=10000
+\begin{landscape}
+\setlength\LTleft{0pt}\setlength\LTright{0pt}
+\begin{longtable}{p{6.3em}p{6.5em}p{6em}p{8em}p{10em}p{6em}p{4.5em}}
+\toprule
+citation & domain & features & predict what & predict how & predict when & portfolio\\\midrule\endhead
+\bottomrule\\\multicolumn{7}{r}{continued on next page}\\\endfoot
+\bottomrule\\\caption{Summary of the Algorithm Selection literature.}\label{tab:overview}\endlastfoot
+
+\citeA{langley_learningd_1983,langley_learning_1983} & search & past performance
+& algorithm & hand-crafted and learned rules & offline and online & dynamic\\
+
+\citeA{carbonell_prodigy_1991} & planning & problem domain features, search
+statistics & control rules & explanation-based rule construction & online &
+dynamic\\
+
+\citeA{gratch_composer_1992} & planning & problem domain features, search
+statistics & control rules & probabilistic rule construction & online &
+dynamic\\
+
+\citeA{smith_knowledge-based_1992} & software design & features of abstract
+representation & algorithms and data structures & simulated annealing & offline
+& static\\
+
+\citeA{aha_generalizing_1992} & Machine Learning & problem features & algorithm &
+learned rules & offline & static\\
+
+\citeA{brodley_automatic_1993} & Machine Learning & problem and algorithm
+features & algorithm & hand-crafted rules & offline & static\\
+
+\citeA{kamel_odexpert_1993} & differential equations & past performance, problem
+features & algorithm & hand-crafted rules & offline & static\\
+
+\citeA{minton_integrating_1993,minton_analytic_1993,minton_automatically_1996} &
+constraints & runtime performance & algorithm & hand-crafted and learned rules &
+offline & dynamic\\
+
+\citeA{cahill_knowledge-based_1994} & software design & problem features &
+algorithms and data structures & frame-based knowledge base & offline & static\\
+
+\citeA{tsang_attempt_1995} & constraints & problem features & - & - & - &
+static\\
+
+\citeA{brewer_high-level_1995} & software design & runtime performance &
+algorithms, data structures and their parameters & statistical model & offline &
+static\\
+
+\citeA{weerawarana_pythia_1996,joshi_neuro-fuzzy_1996} & differential equations &
+problem features & runtime performance & Bayesian belief propagation, neural
+nets & offline & static\\
+
+\citeA{borrett_adaptive_1996} & constraints & search statistics & switch
+algorithm? & hand-crafted rules & online & static, static order\\
+
+\citeA{allen_selecting_1996} & SAT, constraints & probing & runtime
+performance & hand-crafted rules & online & static\\
+
+\citeA{sakkout_instance_1996} & constraints & search statistics & switch
+algorithm? & hand-crafted rules & online & static\\
+
+\citeA{huberman_economics_1997} & graph colouring & past performance & resource
+allocation & statistical model & offline & static\\
+
+\citeA{gomes_practical_1997,gomes_algorithm_1997} & constraints & problem size
+and past performance & algorithm & statistical model & offline & static\\
+
+\citeA{cook_maximizing_1997} & parallel search & probing & set of search
+strategies & decision trees, Bayesian classifier, nearest neighbour, neural
+net & online & static\\
+
+\citeA{fink_statistical_1997,fink_how_1998} & planning & past performance &
+resource allocation & statistical model, regression & offline & static\\
+
+\citeA{lobjois_branch_1998} & branch and bound & probing & runtime performance &
+hand-crafted rules & online & static\\
+
+\citeA{caseau_meta-heuristic_1999} & vehicle routing problem & runtime
+performance & algorithm & genetic algorithms & offline & static\\
+
+\citeA{howe_exploiting_1999} & planning & problem features & resource allocation
+& linear regression & offline & static\\
+
+\citeA{terashima-marin_evolution_1999} & scheduling & problem and search
+features & algorithm & genetic algorithms & offline & dynamic\\
+
+\citeA{wilson_case-based_2000} & software design & problem features & data
+structures & nearest neighbour & offline & static\\
+
+\citeA{beck_dynamic_2000} & job shop scheduling & problem feature changes during
+search & algorithm scheduling policy & hand-crafted rules & online & static\\
+
+\citeA{brazdil_comparison_2000} & classification & past performance & ranking &
+distribution model & offline & static\\
+
+\citeA{lagoudakis_algorithm_2000} & order selection, sorting & problem
+features & remaining cost for each sub-problem & MDP & online & static\\
+
+\citeA{sillito_improvements_2000} & constraints & probing & cost of solving
+problem & statistical model & offline & static\\
+
+\citeA{pfahringer_meta-learning_2000} & classification & problem features,
+probing & algorithm & 9 different classifiers & offline & static\\
+
+\citeA{fukunaga_genetic_2000} & TSP & past
+performance & resource allocation & performance simulation for different
+allocations & offline & static\\
+
+\citeA{gomes_algorithm_2001} & constraints, mixed integer programming &
+past performance & algorithm & statistical model & offline & dynamic\\
+
+\citeA{cowling_parameter-free_2001} & scheduling & problem features & algorithm &
+hand-crafted rules, weights & online & static\\
+
+\citeA{epstein_collaborative_2001,epstein_adaptive_2002,epstein_learning_2005,epstein_learning_2011} &
+constraints & variable characteristics & algorithm & weights, hand-crafted rules
+& offline and online & dynamic\\
+
+\citeA{lagoudakis_learning_2001} & DPLL branching rules & problem features & 
+remaining cost for each sub-problem & MDP & online & static\\
+
+\citeA{nareyek_choosing_2001} & optimisation & search statistics & expected
+utility of algorithm & reinforcement learning & offline and online & static\\
+
+\citeA{horvitz_bayesian_2001} & constraints & problem and problem generator
+features, search statistics & runtime performance, restart parameters &
+Bayesian model & offline and online & static\\
+
+\citeA{borrett_context_2001} & constraints & problem features, search
+statistics & redundant constraints to add & hand-crafted rules & offline & -\\
+
+\citeA{little_capturing_2002} & logic puzzles & problem graph features & problem
+model transformations for runtime performance & nearest neighbour & offline &
+-\\
+
+\citeA{petrovic_case-based_2002} & scheduling & problem features & algorithm &
+case-based reasoning & offline & static\\
+
+\citeA{leyton-brown_learning_2002} & winner determination problem & problem
+features & problem hardness & several forms of regression & offline & static\\
+
+\citeA{fukunaga_automated_2002,fukunaga_automated_2008} & SAT & variable
+characteristics & algorithm & genetic algorithms & offline & dynamic\\
+
+\citeA{yu_parallel_2002,yu_adaptive_2004,yu_adaptive_2006} & parallel reduction
+algorithms & problem features & algorithm & decision trees, general
+linear regression & offline and online & static\\
+
+\citeA{vrakas_learning_2003} & planning & problem features & parameters &
+classification association rules & offline & dynamic\\
+
+\citeA{guo_algorithm_2003} & sorting, probabilistic inference & problem
+features & algorithm & decision tree, na\"ive Bayes, Bayesian network,
+meta-learning & offline & static\\
+
+\citeA{watson_empirical_2003} & job shop scheduling & problem features, search
+statistics & local search algorithm & statistical model & offline and online &
+static\\
+
+\citeA{brazdil_ranking_2003} & Machine Learning & problem features & ranking &
+nearest neighbour & offline & static\\
+
+\citeA{gebruers_making_2004} & bid evaluation problem & problem and problem graph
+features & solution method & nearest neighbour & offline & static\\
+
+\citeA{guerri_learning_2004} & bid evaluation problem & problem and problem graph
+features & solution method, algorithm & decision trees & offline & static\\
+
+\citeA{beck_simple_2004} & scheduling & probing & algorithm & hand-crafted
+rules & offline & static\\
+
+\citeA{nudelman_understanding_2004,xu_satzilla-07_2007,xu_satzilla_2008} & SAT &
+problem features, probing & runtime performance & ridge regression, lasso
+regression, SVMs, Gaussian processes & offline & static\\
+
+\citeA{carchrae_low-knowledge_2004,carchrae_applying_2005} & job shop scheduling
+& probing, search statistics & length of exploration phase, switch
+algorithm? & Bayesian classifier, reinforcement learning & offline and online &
+static\\
+
+\citeA{soares_meta-learning_2004} & Machine Learning & problem features & ranking
+of SVM kernel widths & nearest neighbour & offline & static\\
+
+\citeA{guo_learning-based_2004} & most probable explanation problem & problem
+features & algorithm & decision trees, na\"ive Bayes rules, Bayes networks,
+meta-learning techniques & offline & static\\
+
+\citeA{gagliolo_adaptive_2004} & search problems & past performance & resource
+allocation & linear model & online & static\\
+
+\citeA{demmel_self-adapting_2005} & linear algebra & problem features &
+algorithm & multivariate Bayesian decision rule & offline & static\\
+
+\citeA{gebruers_using_2005} & constraints & problem features & problem model,
+solution strategy & nearest neighbour, decision trees, statistical model &
+offline & static\\
+
+\citeA{petrik_statistically_2005} & SAT & past performance & resource allocation
+& analytic model, MDP & offline and online & static\\
+
+\citeA{cicirello_max_2005} & scheduling & past performance & algorithm &
+reinforcement learning & online & static\\
+
+\citeA{gagliolo_neural_2005} & - & past performance & resource allocation &
+neural nets & online & static\\
+
+\citeA{armstrong_dynamic_2006} & procedure calls & runtime performance & switch
+algorithm? & reinforcement learning & online & static\\
+
+\citeA{gagliolo_learning_2006} & SAT, auction winner determination problem &
+past performance & resource allocation & reinforcement learning & online &
+static\\
+
+\citeA{roberts_directing_2006} & planning & problem features & resource
+allocation & decision trees & offline & static\\
+
+\citeA{hough_modern_2006} & optimisation & problem, algorithm and environment
+features & algorithm & ensembles of decision trees, SVMs & offline &
+static\\
+
+\citeA{bhowmick_application_2006} & linear systems & problem features &
+algorithm & boosting, alternating decision trees & offline & static\\
+
+\citeA{hutter_performance_2006} & stochastic local search & problem
+features & runtime performance & ridge regression & offline & dynamic\\
+
+\citeA{sayag_combining_2006} & SAT & past performance & resource allocation &
+static model, probabilistic model & offline & static\\
+
+\citeA{xu_hierarchical_2007} & SAT & problem features & satisfiability and
+runtime performance & sparse multinomial logistic regression, ridge
+regression & offline & static\\
+
+\citeA{pulina_multi-engine_2007,pulina_self-adaptive_2009} & QBF & problem
+features & resource allocation & decision trees, decision rules, logistic
+regression, nearest neighbour & offline and online & static\\
+
+\citeA{samulowitz_learning_2007} & QBF & problem features & algorithm,
+confidence values & multinomial logistic regression & offline and online &
+static\\
+
+\citeA{wu_portfolios_2007} & scheduling & - & portfolio & case-based reasoning &
+offline & dynamic\\
+
+\citeA{streeter_combining_2007} & planning & past performance & resource
+allocation & statistical model & offline and online & static\\
+
+\citeA{wang_optimizing_2007} & simulation algorithms & past performance & control
+parameter & reinforcement learning & online & static\\
+
+\citeA{roberts_learned_2007,roberts_what_2008} & planning & problem features &
+runtime, probability of success & 32 different algorithms & offline &
+static\\
+
+\citeA{streeter_new_2008} & SAT, integer programming, planning & problem features
+& resource allocation & statistical model & offline and online & static\\
+
+\citeA{omahony_using_2008,bridge_case-based_2011} & constraints & problem
+features, probing & resource allocation & nearest neighbour & offline & static\\
+
+\citeA{kuefler_using_2008} & linear systems & problem features, search
+statistics & algorithm & reinforcement learning & online & static\\
+
+\citeA{wei_switching_2008} & SAT & search statistics & algorithm & hand-crafted
+rules & online & static\\
+
+\citeA{gagliolo_towards_2008} & SAT & past performance & resource allocation &
+reinforcement learning & online & static\\
+
+\citeA{smith-miles_towards_2008} & Quadratic Assignment Problem & problem
+features, probing & algorithm, runtime performance & neural networks
+and self-organising maps & offline & static\\
+
+\citeA{stergiou_heuristics_2008,stergiou_heuristics_2009,paparrizou_evaluating_2012} & constraints & search statistics & propagation method & clustering & online & static\\
+
+\citeA{nikoli_instance-based_2009} & SAT & problem features & search strategy &
+nearest neighbour & offline & static\\
+
+\citeA{stamatatos_learning_2009} & constraints & probing & propagation method &
+clustering & offline & static\\
+
+\citeA{arbelaez_online_2009,arbelaez_continuous_2010} & constraints & problem features, search
+statistics & search strategy & SVM & online & static\\
+
+\citeA{haim_restart_2009} & SAT & problem features & restart strategy and
+satisfiability & ridge regression, logistic regression & offline & static\\
+
+\citeA{bhowmick_towards_2009} & linear systems & problem features & algorithm &
+nearest-neighbour, alternating decision trees, na\"ive Bayes, SVM & offline &
+static\\
+
+\citeA{gerevini_automatically_2009} & planning & past performance & macro
+actions, resource allocation & performance simulations for different
+allocations & offline & static\\
+
+\citeA{xu_learning_2009} & constraints & problem features & algorithm &
+reinforcement learning & online & static\\
+
+\citeA{bougeret_combining_2009} & SAT & past performance & resource allocation &
+static model & offline & static\\
+
+\citeA{leite_using_2010} & Machine Learning & past performance, probing &
+ranking of classification algorithms & statistical model & offline and online &
+static\\
+
+\citeA{silverthorn_latent_2010} & SAT & past performance & runtime performance &
+latent class models & offline & static\\
+
+\citeA{stern_collaborative_2010} & QBF, combinatorial auctions & problem and
+algorithm features & algorithm & Bayesian model & offline and online &
+static\\
+
+\citeA{garrido_dvrp_2010} & dynamic vehicle routing problem & runtime
+performance & combination of low-level heuristics & genetic algorithms & online
+& dynamic\\
+
+\citeA{domshlak_max_2010} & planning & state variables & algorithm & na\"ive
+Bayes classifier & online & static\\
+
+\citeA{kadioglu_isac_2010} & SAT, mixed integer programming, set covering &
+problem features & algorithm & clustering & offline & dynamic\\
+
+\citeA{gent_learning_2010} & constraints & problem features, probing & algorithm
+& decision trees & offline & static\\
+
+\citeA{gent_machine_2010} & software design & problem features & implementation
+& 19 different classifiers & offline & static\\
+
+\citeA{kotthoff_ensemble_2010} & constraints & problem features, probing &
+algorithm & ensembles of classifiers & offline & static\\
+
+\citeA{ewald_selecting_2010} & simulation algorithms & past performance &
+portfolio & genetic algorithms & offline & dynamic\\
+
+\citeA{elsayed_synthesis_2010,elsayed_synthesis_2011} & constraints & problem
+features & search strategy & hand-crafted rules & online & dynamic\\
+
+\citeA{valenzano_simultaneously_2010} & search problems & - & algorithm &
+round-robin & online & static\\
+
+\citeA{leite_active_2010} & classification & past performance & ranking &
+statistical model & offline & static\\
+
+\citeA{aiguzhinov_similarity-based_2010} & classification & past performance &
+ranking & na\"ive Bayes & offline & static\\
+
+\citeA{kanda_using_2010,kanda_selection_2011} & TSP & problem features &
+algorithms & nearest neighbour, decision tree, SVM, na\"ive Bayes & offline &
+static\\
+
+\citeA{tolpin_rational_2011} & constraints & search statistics & algorithm &
+hand-crafted rules & online & static\\
+
+\citeA{malitsky_non-model-based_2011} & SAT & problem features & algorithm &
+nearest neighbour & offline & static\\
+
+\citeA{kadioglu_algorithm_2011} & SAT & problem features & resource allocation &
+nearest neighbour & offline & static\\
+
+\citeA{kroer_feature_2011} & SAT, constraints & problem features & algorithm &
+clustering & offline & dynamic\\
+
+\citeA{kotthoff_preliminary_2011,kotthoff_evaluation_2012} & SAT, QBF,
+constraints & problem features, probing & algorithm, runtime performance,
+ranking & 31 different Machine Learning algorithms & offline & static\\
+
+\citeA{gagliolo_algorithm_2010,gagliolo_algorithm_2011} & SAT, QBF, constraints
+& past performance & resource allocation & reinforcement learning & online &
+static\\
+
+\citeA{gebser_portfolio_2011} & Answer Set Programming & problem features,
+probing & runtime performance & SVM & offline & static\\
+
+\citeA{xu_hydra-mip_2011} & MIP & problem features, probing & algorithm &
+random forests & offline & dynamic\\
+
+\citeA{maturana_adaptive_2011} & evolutionary algorithms & past performance &
+algorithm & statistical models & online & static\\
+
+\citeA{helmert_fast_2011} & planning & past performance & resource allocation &
+statistical model & offline & static\\
+
+\citeA{kiziltan_classification-based_2011} & constraints & problem features &
+resource allocation & 8 classification algorithms, ridge regression & offline &
+static\\
+
+\citeA{smith-miles_discovering_2011} & TSP & problem features & algorithm &
+self-organizing map, decision tree, neural network & offline & static\\
+
+\citeA{kotthoff_hybrid_2012} & SAT, QBF, constraints & problem features,
+probing & algorithm & 5 regression algorithms, 2 classification
+algorithms & offline & static\\
+
+\citeA{yun_learning_2012} & constraints & problem features & portfolio &
+case-based reasoning, hand-crafted rules & offline & dynamic\\
+
+\citeA{hurley_adaptation_2012} & SAT & problem features & ranking & case-based
+reasoning with voting & offline & static\\
+
+\citeA{shukla_genetic-algorithms-based_2012} & inventory routing problem &
+past performance & portfolio & statistical model & offline & static\\
+
+\citeA{malitsky_parallel_2012} & SAT & past performance & resource allocation &
+nearest neighbour & offline and online & static\\
+
+\citeA{bischl_algorithm_2012} & optimisation problems & problem features &
+algorithm & SVM & offline & static\\
+
+\citeA{veerapen_exploration-exploitation_2012} & Quadratic Assignment Problem
+and TSP & past performance & algorithm & statistical model & online & static\\
+
+\citeA{valenzano_arvandherd_2012} & planning & past performance & resource
+allocation & statistical model & offline and online & static\\
+
+\citeA{hutter_algorithm_2012} & SAT, MIP, TSP & problem features & algorithm
+performance & 11 algorithms & offline & static\\
+
+\citeA{kanda_meta-learning_2012} & TSP & problem features & ranking & neural
+networks & offline & static\\
+
+\citeA{kadioglu_non-model-based_2012} & MIP & problem features & heuristic &
+clustering & online & static\\
+
+\citeA{sabharwal_boosting_2013} & SAT & problem features & resource allocation
+and switch algorithm? & nearest neighbour and decision tree classification &
+offline and online & static\\
+
+\citeA{abell_features_2013} & black-box optimisation & problem features &
+algorithm & clustering & offline & static\\
+
+\citeA{hutter_identifying_2013} & SAT, MIP, TSP & problem features and algorithm
+parameters & algorithm performance & random forests, linear regression, neural
+networks, Gaussian processes, regression trees & offline & static\\
+
+\citeA{musliu_algorithm_2013} & graph coloring & problem features & algorithm &
+six classifiers & offline & static\\
+
+\citeA{amadini_empirical_2013} & constraints & problem features & algorithm &
+range of different approaches & offline & static\\
+
+\citeA{alhossaini_instance-specific_2013} & planning & problem features &
+model & SVM & offline & static\\
+
+\citeA{seijen_efficient_2013} & reinforcement learning & past performance &
+abstraction & MDP & online & static\\
+
+\citeA{malitsky_evolving_2013} & SAT & problem features & algorithm & clustering
+& online & static\\
+
+\citeA{mehta_lazy_2013} & constraints & problem features & algorithm &
+classification, regression and clustering & offline & static\\
+
+\citeA{malitsky_algorithm_2013} & SAT & problem features & algorithm &
+clustering & offline & static\\
+
+\citeA{rayner_subset_2013} & combinatorial search & probing & subset of
+algorithms & optimisation problem & offline & static\\
+
+\citeA{sun_pairwise_2013} & machine learning & past performance & ranking &
+pairwise rules and trees & offline & static\\
+
+\citeA{collautti_snnap_2013} & SAT & problem features, past performance &
+algorithm & clustering & offline & static\\
+
+% 2014
+
+\citeA{amadini_portfolio_2014} & constraints & problem features & algorithm,
+resource allocation & 5 different classifiers & offline and online & static\\
+
+\citeA{cauwet_algorithm_2014} & optimisation & past performance & resource
+allocation & statistical model & online & static\\
+
+\citeA{hoos_aspeed_2014} & ASP, SAT, QBF, CSP & past performance & resource
+allocation & answer set programming & offline & static\\
+
+\citeA{hurley_proteus_2014} & CSP & problem features & problem encoding,
+algorithm & classification, regression, clustering & offline & static\\
+
+\citeA{kotthoff_ranking_2014} & CSP, SAT, QBF & problem features & ranking &
+classification, regression, meta-learning & offline & static\\
+
+\end{longtable}
+\end{landscape}
+\hbadness=1000
+
+\bibliographystyle{acmsmall}
+\bibliography{survey}
+
+\end{document}

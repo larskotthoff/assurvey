@@ -1,0 +1,161 @@
+year,citation,domain,features,predict what,predict how,predict when,portfolio
+1983,,search,past performance,algorithm,hand-crafted and learned rules,offline and online,dynamic
+1983,,search,past performance,algorithm,hand-crafted and learned rules,offline and online,dynamic
+1991,,planning,problem domain features search statistics,control rules,explanation-based rule construction,online,dynamic
+1992,,planning,problem domain features search statistics,control rules,probabilistic rule construction,online,dynamic
+1992,,software design,features of abstract representation,algorithms and data structures,simulated annealing,offline,static
+1992,,Machine Learning,problem features,algorithm,learned rules,offline,static
+1993,,Machine Learning,problem and algorithm features,algorithm,hand-crafted rules,offline,static
+1993,,differential equations,past performance problem features,algorithm,hand-crafted rules,offline,static
+1993,,constraints,runtime performance,algorithm,hand-crafted and learned rules,offline,dynamic
+1993,,constraints,runtime performance,algorithm,hand-crafted and learned rules,offline,dynamic
+1996,,constraints,runtime performance,algorithm,hand-crafted and learned rules,offline,dynamic
+1994,,software design,problem features,algorithms and data structures,frame-based knowledge base,offline,static
+1995,,constraints,problem features,-,-,-,static
+1995,,software design,runtime performance,algorithms data structures and their parameters,statistical model,offline,static
+1996,,differential equations,problem features,runtime performance,Bayesian belief propagation neural nets,offline,static
+1996,,differential equations,problem features,runtime performance,Bayesian belief propagation neural nets,offline,static
+1996,,constraints,search statistics,switch algorithm?,hand-crafted rules,online,static static order
+1996,,SAT constraints,probing,runtime performance,hand-crafted rules,online,static
+1996,,constraints,search statistics,switch algorithm?,hand-crafted rules,online,static
+1997,,graph colouring,past performance,resource allocation,statistical model,offline,static
+1997,,constraints,problem size and past performance,algorithm,statistical model,offline,static
+1997,,constraints,problem size and past performance,algorithm,statistical model,offline,static
+1997,,parallel search,probing,set of search strategies,decision trees Bayesian classifier nearest neighbour neural net,online,static
+1997,,planning,past performance,resource allocation,statistical model regression,offline,static
+1998,,planning,past performance,resource allocation,statistical model regression,offline,static
+1998,,branch and bound,probing,runtime performance,hand-crafted rules,online,static
+1999,,vehicle routing problem,runtime performance,algorithm,genetic algorithms,offline,static
+1999,,planning,problem features,resource allocation,linear regression,offline,static
+1999,,scheduling,problem and search features,algorithm,genetic algorithms,offline,dynamic
+2000,,software design,problem features,data structures,nearest neighbour,offline,static
+2000,,job shop scheduling,problem feature changes during search,algorithm scheduling policy,hand-crafted rules,online,static
+2000,,classification,past performance,ranking,distribution model,offline,static
+2000,,order selection sorting,problem features,remaining cost for each sub-problem,MDP,online,static
+2000,,constraints,probing,cost of solving problem,statistical model,offline,static
+2000,,classification,problem features probing,algorithm,9 different classifiers,offline,static
+2000,,TSP,past performance,resource allocation,performance simulation for different allocations,offline,static
+2001,,constraints mixed integer programming,past performance,algorithm,statistical model,offline,dynamic
+2001,,scheduling,problem features,algorithm,hand-crafted rules weights,online,static
+2001,,constraints,variable characteristics,algorithm,weights hand-crafted rules,offline and online,dynamic
+2002,,constraints,variable characteristics,algorithm,weights hand-crafted rules,offline and online,dynamic
+2005,,constraints,variable characteristics,algorithm,weights hand-crafted rules,offline and online,dynamic
+2011,,constraints,variable characteristics,algorithm,weights hand-crafted rules,offline and online,dynamic
+2001,,DPLL branching rules,problem features,remaining cost for each sub-problem,MDP,online,static
+2001,,optimisation,search statistics,expected utility of algorithm,reinforcement learning,offline and online,static
+2001,,constraints,problem and problem generator features search statistics,runtime performance restart parameters,Bayesian model,offline and online,static
+2001,,constraints,problem features search statistics,redundant constraints to add,hand-crafted rules,offline,-
+2002,,logic puzzles,problem graph features,problem model transformations for runtime performance,nearest neighbour,offline,-
+2002,,scheduling,problem features,algorithm,case-based reasoning,offline,static
+2002,,winner determination problem,problem features,problem hardness,several forms of regression,offline,static
+2002,,SAT,variable characteristics,algorithm,genetic algorithms,offline,dynamic
+2008,,SAT,variable characteristics,algorithm,genetic algorithms,offline,dynamic
+2002,,parallel reduction algorithms,problem features,algorithm,decision trees general linear regression,offline and online,static
+2004,,parallel reduction algorithms,problem features,algorithm,decision trees general linear regression,offline and online,static
+2006,,parallel reduction algorithms,problem features,algorithm,decision trees general linear regression,offline and online,static
+2003,,planning,problem features,parameters,classification association rules,offline,dynamic
+2003,,sorting probabilistic inference,problem features,algorithm,decision tree naïve Bayes Bayesian network meta-learning,offline,static
+2003,,job shop scheduling,problem features search statistics,local search algorithm,statistical model,offline and online,static
+2003,,Machine Learning,problem features,ranking,nearest neighbour,offline,static
+2004,,bid evaluation problem,problem and problem graph features,solution method,nearest neighbour,offline,static
+2004,,bid evaluation problem,problem and problem graph features,solution method algorithm,decision trees,offline,static
+2004,,scheduling,probing,algorithm,hand-crafted rules,offline,static
+2004,,SAT,problem features probing,runtime performance,ridge regression lasso regression SVMs Gaussian processes,offline,static
+2007,,SAT,problem features probing,runtime performance,ridge regression lasso regression SVMs Gaussian processes,offline,static
+2008,,SAT,problem features probing,runtime performance,ridge regression lasso regression SVMs Gaussian processes,offline,static
+2004,,job shop scheduling,probing search statistics,length of exploration phase switch algorithm?,Bayesian classifier reinforcement learning,offline and online,static
+2005,,job shop scheduling,probing search statistics,length of exploration phase switch algorithm?,Bayesian classifier reinforcement learning,offline and online,static
+2004,,Machine Learning,problem features,ranking of SVM kernel widths,nearest neighbour,offline,static
+2004,,most probable explanation problem,problem features,algorithm,decision trees naïve Bayes rules Bayes networks meta-learning techniques,offline,static
+2004,,search problems,past performance,resource allocation,linear model,online,static
+2005,,linear algebra,problem features,algorithm,multivariate Bayesian decision rule,offline,static
+2005,,constraints,problem features,problem model solution strategy,nearest neighbour decision trees statistical model,offline,static
+2005,,SAT,past performance,resource allocation,analytic model MDP,offline and online,static
+2005,,scheduling,past performance,algorithm,reinforcement learning,online,static
+2005,,-,past performance,resource allocation,neural nets,online,static
+2006,,procedure calls,runtime performance,switch algorithm?,reinforcement learning,online,static
+2006,,SAT auction winner determination problem,past performance,resource allocation,reinforcement learning,online,static
+2006,,planning,problem features,resource allocation,decision trees,offline,static
+2006,,optimisation,problem algorithm and environment features,algorithm,ensembles of decision trees SVMs,offline,static
+2006,,linear systems,problem features,algorithm,boosting alternating decision trees,offline,static
+2006,,stochastic local search,problem features,runtime performance,ridge regression,offline,dynamic
+2006,,SAT,past performance,resource allocation,static model probabilistic model,offline,static
+2007,,SAT,problem features,satisfiability and runtime performance,sparse multinomial logistic regression ridge regression,offline,static
+2007,,QBF,problem features,resource allocation,decision trees decision rules logistic regression nearest neighbour,offline and online,static
+2009,,QBF,problem features,resource allocation,decision trees decision rules logistic regression nearest neighbour,offline and online,static
+2007,,QBF,problem features,algorithm confidence values,multinomial logistic regression,offline and online,static
+2007,,scheduling,-,portfolio,case-based reasoning,offline,dynamic
+2007,,planning,past performance,resource allocation,statistical model,offline and online,static
+2007,,simulation algorithms,past performance,control parameter,reinforcement learning,online,static
+2007,,planning,problem features,runtime probability of success,32 different algorithms,offline,static
+2008,,planning,problem features,runtime probability of success,32 different algorithms,offline,static
+2008,,SAT integer programming planning,problem features,resource allocation,statistical model,offline and online,static
+2008,,constraints,problem features probing,resource allocation,nearest neighbour,offline,static
+2011,,constraints,problem features probing,resource allocation,nearest neighbour,offline,static
+2008,,linear systems,problem features search statistics,algorithm,reinforcement learning,online,static
+2008,,SAT,search statistics,algorithm,hand-crafted rules,online,static
+2008,,SAT,past performance,resource allocation,reinforcement learning,online,static
+2008,,Quadratic Assignment Problem,problem features probing,algorithm runtime performance,neural networks and self-organising maps,offline,static
+2008,,constraints,search statistics,propagation method,clustering,online,static
+2009,,constraints,search statistics,propagation method,clustering,online,static
+2012,,constraints,search statistics,propagation method,clustering,online,static
+2009,,SAT,problem features,search strategy,nearest neighbour,offline,static
+2009,,constraints,probing,propagation method,clustering,offline,static
+2009,,constraints,problem features search statistics,search strategy,SVM,online,static
+2009,,SAT,problem features,restart strategy and satisfiability,ridge regression logistic regression,offline,static
+2009,,linear systems,problem features,algorithm,nearest-neighbour alternating decision trees naïve Bayes SVM,offline,static
+2009,,planning,past performance,macro actions resource allocation,performance simulations for different allocations,offline,static
+2009,,constraints,problem features,algorithm,reinforcement learning,online,static
+2009,,SAT,past performance,resource allocation,static model,offline,static
+2010,,Machine Learning,past performance probing,ranking of classification algorithms,statistical model,offline and online,static
+2010,,SAT,past performance,runtime performance,latent class models,offline,static
+2010,,QBF combinatorial auctions,problem and algorithm features,algorithm,Bayesian model,offline and online,static
+2010,,dynamic vehicle routing problem,runtime performance,combination of low-level heuristics,genetic algorithms,online,dynamic
+2010,,planning,state variables,algorithm,naïve Bayes classifier,online,static
+2010,,SAT mixed integer programming set covering,problem features,algorithm,clustering,offline,dynamic
+2010,,constraints,problem features probing,algorithm,decision trees,offline,static
+2010,,software design,problem features,implementation,19 different classifiers,offline,static
+2010,,constraints,problem features probing,algorithm,ensembles of classifiers,offline,static
+2010,,simulation algorithms,past performance,portfolio,genetic algorithms,offline,dynamic
+2010,,constraints,problem features,search strategy,hand-crafted rules,online,dynamic
+2011,,constraints,problem features,search strategy,hand-crafted rules,online,dynamic
+2010,,search problems,-,algorithm,round-robin,online,static
+2010,,classification,past performance,ranking,statistical model,offline,static
+2010,,classification,past performance,ranking,naïve Bayes,offline,static
+2010,,TSP,problem features,algorithms,nearest neighbour decision tree SVM naïve Bayes,offline,static
+2011,,TSP,problem features,algorithms,nearest neighbour decision tree SVM naïve Bayes,offline,static
+2011,,constraints,search statistics,algorithm,hand-crafted rules,online,static
+2011,,SAT,problem features,algorithm,nearest neighbour,offline,static
+2011,,SAT,problem features,resource allocation,nearest neighbour,offline,static
+2011,,SAT constraints,problem features,algorithm,clustering,offline,dynamic
+2011,,SAT QBF constraints,problem features probing,algorithm runtime performance ranking,31 different Machine Learning algorithms,offline,static
+2012,,SAT QBF constraints,problem features probing,algorithm runtime performance ranking,31 different Machine Learning algorithms,offline,static
+2011,,SAT QBF constraints,past performance,resource allocation,reinforcement learning,online,static
+2011,,Answer Set Programming,problem features probing,runtime performance,SVM,offline,static
+2011,,MIP,problem features probing,algorithm,random forests,offline,dynamic
+2011,,evolutionary algorithms,past performance,algorithm,statistical models,online,static
+2011,,planning,past performance,resource allocation,statistical model,offline,static
+2011,,constraints,problem features,resource allocation,8 classification algorithms ridge regression,offline,static
+2011,,TSP,problem features,algorithm,self-organizing map decision tree neural network,offline,static
+2012,,SAT QBF constraints,problem features probing,algorithm,5 regression algorithms 2 classification algorithms,offline,static
+2012,,constraints,problem features,portfolio,case-based reasoning hand-crafted rules,offline,dynamic
+2012,,SAT,problem features,ranking,case-based reasoning with voting,offline,static
+2012,,inventory routing problem,past performance,portfolio,statistical model,offline,static
+2012,,SAT,past performance,resource allocation,nearest neighbour,offline and online,static
+2012,,optimisation problems,problem features,algorithm,SVM,offline,static
+2012,,Quadratic Assignment Problem and TSP,past performance,algorithm,statistical model,online,static
+2012,,planning,past performance,resource allocation,statistical model,offline and online,static
+2012,,SAT MIP TSP,problem features,algorithm performance,11 algorithms,offline,static
+2012,,TSP,problem features,ranking,neural networks,offline,static
+2012,,MIP,problem features,heuristic,clustering,online,static
+2013,,SAT,problem features,resource allocation and switch algorithm?,nearest neighbour and decision tree classification,offline and online,static
+2013,,black-box optimisation,problem features,algorithm,clustering,offline,static
+2013,,SAT MIP TSP,problem features and algorithm parameters,algorithm performance,random forests linear regression neural networks Gaussian processes regression trees,offline,static
+2013,,graph coloring,problem features,algorithm,six classifiers,offline,static
+2013,,constraints,problem features,algorithm,range of different approaches,offline,static
+2013,,planning,problem features,model,SVM,offline,static
+2013,,reinforcement learning,past performance,abstraction,MDP,online,static
+2013,,SAT,problem features,algorithm,clustering,online,static
+2013,,constraints,problem features,algorithm,classification regression and clustering,offline,static
+2013,,SAT,problem features,algorithm,clustering,offline,static
+2013,,combinatorial search,probing,subset of algorithms,optimisation problem,offline,static
