@@ -1,7 +1,7 @@
 # Algorithm Selection for Combinatorial Search Problems: A survey
 
 This repository contains the sources for the summary table of the algorithm
-selection survey, available online at http://4c.ucc.ie/~larsko/assurvey/
+selection survey, available online at http://larskotthoff.github.io/assurvey/
 
 ## Compiling
 
@@ -19,3 +19,17 @@ To add new references, add the bib entry to `survey.bib` and a new entry in the
 table in `summary.tex` using the format that the other entries use. Please try
 to keep the descriptions in the columns short and use terms that already exist
 so that the entries group together nicely.
+
+## Citing
+
+If you find this reference useful, please cite
+
+Kotthoff, Lars. "Algorithm Selection for Combinatorial Search Problems: A Survey." AI Magazine, 2014 (in press).
+
+    @article{kotthoff_algorithm_2014,
+	  title = {Algorithm Selection for Combinatorial Search Problems: A survey},
+	  author = {Kotthoff, Lars},
+      journal = {AI Magazine},
+	  year = {2014},
+      note = {in press}
+    }
