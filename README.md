@@ -18,7 +18,7 @@ at the appropriate position (replace the existing pasted JSON).
 To add new references, add the bib entry to `survey.bib` and a new entry in the
 table in `summary.tex` using the format that the other entries use. Please try
 to keep the descriptions in the columns short and use terms that already exist
-so that the entries group together nicely.
+if possible so that the entries group together nicely.
 
 ## Citing
 
