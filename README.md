@@ -29,9 +29,11 @@ Kotthoff, Lars. "Algorithm Selection for Combinatorial Search Problems: A Survey
     @article{kotthoff_algorithm_2014,
 	  title = {Algorithm Selection for Combinatorial Search Problems: A survey},
 	  author = {Kotthoff, Lars},
-      journal = {AI Magazine},
-	  year = {2014},
-      note = {in press}
+      journal = {{AI} Magazine},
+      volume = {35},
+      number = {3},
+      pages = {48--60},
+	  year = {2014}
     }
 
 ## Contributors
