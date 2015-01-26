@@ -10,8 +10,8 @@ will pick up the references in `survey.bib`. This will generate the document
 with the table.
 
 To generate the web version, go to the `web/` subdirectory and run `run.sh`.
-This will update `lit.json`, which you need to copy and paste into `index.html`
-at the appropriate position (replace the existing pasted JSON).
+This will update `lit.json`. `index.html` should be updated manually with the
+last modified date as appropriate.
 
 ## Modifying
 
