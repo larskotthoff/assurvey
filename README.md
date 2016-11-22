@@ -24,7 +24,7 @@ if possible so that the entries group together nicely.
 
 If you find this reference useful, please cite
 
-Kotthoff, Lars. "Algorithm Selection for Combinatorial Search Problems: A Survey." AI Magazine, 2014 (in press).
+Kotthoff, Lars. "Algorithm Selection for Combinatorial Search Problems: A Survey." AI Magazine, 2014.
 
     @article{kotthoff_algorithm_2014,
 	  title = {Algorithm Selection for Combinatorial Search Problems: A survey},
