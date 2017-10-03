@@ -38,5 +38,5 @@ Kotthoff, Lars. "Algorithm Selection for Combinatorial Search Problems: A Survey
 
 ## Contributors
 
-I'd like to thank Marius Lindauer and Kobi Gal, who provided references for this
+I'd like to thank Marius Lindauer, Kobi Gal, and Tiago Cunha, who provided references for this
 summary.
