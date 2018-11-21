@@ -1,4 +1,4 @@
-# Algorithm Selection for Combinatorial Search Problems: A survey
+# Algorithm Selection for Combinatorial Search Problems: A Survey
 
 This repository contains the sources for the summary table of the algorithm
 selection survey, available online at http://larskotthoff.github.io/assurvey/
@@ -38,5 +38,12 @@ Kotthoff, Lars. "Algorithm Selection for Combinatorial Search Problems: A Survey
 
 ## Contributors
 
-I'd like to thank Marius Lindauer, Kobi Gal, Tiago Cunha, and Akrem Benatia, who
-provided references for this summary.
+I'd like to thank Marius Lindauer, Kobi Gal, Tiago Cunha, Akrem Benatia, and
+Mengqi Hu, who provided references for this summary.
+
+## Additional References
+
+The following list of references is relevant, but not included because the
+papers are behind a paywall I do not have access to them:
+- Tor Gunnar Houeland, Agnar Aamodt; "A learning system based on lazy metareasoning"; Progress in Artificial Intelligence, June 2018, Volume 7, Issue 2, pp 129-146
+- Wojciech Bożejko, Andrzej Gnatowski, Teodor Niżyński, Michael Affenzeller, Andreas Beham; "Local Optima Networks in Solving Algorithm Selection Problem for TSP"; International Conference on Dependability and Complex Systems 2018

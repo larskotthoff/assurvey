@@ -45,13 +45,13 @@ features & algorithm & hand-crafted rules & offline & static\\
 instance features & algorithm & hand-crafted rules & offline & static\\
 
 \citeA{minton_integrating_1993,minton_analytic_1993,minton_automatically_1996} &
-constraints & runtime performance & algorithm & hand-crafted and learned rules &
+CSP & runtime performance & algorithm & hand-crafted and learned rules &
 offline & dynamic\\
 
 \citeA{cahill_knowledge-based_1994} & software design & instance features &
 algorithms and data structures & frame-based knowledge base & offline & static\\
 
-\citeA{tsang_attempt_1995} & constraints & instance features & - & - & - &
+\citeA{tsang_attempt_1995} & CSP & instance features & - & - & - &
 static\\
 
 \citeA{brewer_high-level_1995} & software design & runtime performance &
@@ -62,19 +62,19 @@ static\\
 instance features & runtime performance & Bayesian belief propagation, neural
 nets & offline & static\\
 
-\citeA{borrett_adaptive_1996} & constraints & search statistics & switch
+\citeA{borrett_adaptive_1996} & CSP & search statistics & switch
 algorithm? & hand-crafted rules & online & static, static order\\
 
-\citeA{allen_selecting_1996} & SAT, constraints & probing & runtime
+\citeA{allen_selecting_1996} & SAT, CSP & probing & runtime
 performance & hand-crafted rules & online & static\\
 
-\citeA{sakkout_instance_1996} & constraints & search statistics & switch
+\citeA{sakkout_instance_1996} & CSP & search statistics & switch
 algorithm? & hand-crafted rules & online & static\\
 
 \citeA{huberman_economics_1997} & graph colouring & past performance & resource
 allocation & statistical model & offline & static\\
 
-\citeA{gomes_practical_1997,gomes_algorithm_1997} & constraints & problem size
+\citeA{gomes_practical_1997,gomes_algorithm_1997} & CSP & problem size
 and past performance & algorithm & statistical model & offline & static\\
 
 \citeA{cook_maximizing_1997} & parallel search & probing & set of search
@@ -109,7 +109,7 @@ distribution model & offline & static\\
 \citeA{lagoudakis_algorithm_2000} & order selection, sorting & instance
 features & remaining cost for each sub-problem & MDP & online & static\\
 
-\citeA{sillito_improvements_2000} & constraints & probing & cost of solving
+\citeA{sillito_improvements_2000} & CSP & probing & cost of solving
 problem & statistical model & offline & static\\
 
 \citeA{pfahringer_meta-learning_2000} & classification & instance features,
@@ -122,25 +122,25 @@ allocations & offline & static\\
 \citeA{soares_zoomed_2000} & machine learning & instance features & ranking &
 nearest neighbour & offline & static\\
 
-\citeA{gomes_algorithm_2001} & constraints, mixed integer programming &
+\citeA{gomes_algorithm_2001} & CSP, mixed integer programming &
 past performance & algorithm & statistical model & offline & dynamic\\
 
 \citeA{epstein_collaborative_2001,epstein_adaptive_2002,epstein_learning_2005,epstein_learning_2011} &
-constraints & variable characteristics & algorithm & weights, hand-crafted rules
+CSP & variable characteristics & algorithm & weights, hand-crafted rules
 & offline and online & dynamic\\
 
 \citeA{lagoudakis_learning_2001} & DPLL branching rules & instance features & 
 remaining cost for each sub-problem & MDP & online & static\\
 
-\citeA{nareyek_choosing_2001} & optimisation & search statistics & expected
+\citeA{nareyek_choosing_2001} & optimization & search statistics & expected
 utility of algorithm & reinforcement learning & offline and online & static\\
 
-\citeA{horvitz_bayesian_2001} & constraints & instance and instance generator
+\citeA{horvitz_bayesian_2001} & CSP & instance and instance generator
 features, search statistics & runtime performance, restart parameters &
 Bayesian model & offline and online & static\\
 
-\citeA{borrett_context_2001} & constraints & instance features, search
-statistics & redundant constraints to add & hand-crafted rules & offline & -\\
+\citeA{borrett_context_2001} & CSP & instance features, search
+statistics & redundant CSP to add & hand-crafted rules & offline & -\\
 
 \citeA{cowling_hyperheuristic_2001,cowling_parameter-free_2001} & scheduling &
 past performance & algorithm & reinforcement learning & online & static\\
@@ -218,7 +218,7 @@ ranking & decision trees and neural networks & offline & static\\
 \citeA{demmel_self-adapting_2005} & linear algebra & instance features &
 algorithm & multivariate Bayesian decision rule & offline & static\\
 
-\citeA{gebruers_using_2005} & constraints & instance features & problem model,
+\citeA{gebruers_using_2005} & CSP & instance features & problem model,
 solution strategy & nearest neighbour, decision trees, statistical model &
 offline & static\\
 
@@ -244,7 +244,7 @@ static\\
 \citeA{roberts_directing_2006} & planning & instance features & resource
 allocation & decision trees & offline & static\\
 
-\citeA{hough_modern_2006} & optimisation & instance, algorithm and environment
+\citeA{hough_modern_2006} & optimization & instance, algorithm and environment
 features & algorithm & ensembles of decision trees, SVMs & offline &
 static\\
 
@@ -301,7 +301,7 @@ static\\
 \citeA{streeter_new_2008} & SAT, integer programming, planning & instance features
 & resource allocation & statistical model & offline and online & static\\
 
-\citeA{omahony_using_2008,bridge_case-based_2011} & constraints & instance
+\citeA{omahony_using_2008,bridge_case-based_2011} & CSP & instance
 features, probing & resource allocation & nearest neighbour & offline & static\\
 
 \citeA{kuefler_using_2008} & linear systems & instance features, search
@@ -317,7 +317,7 @@ reinforcement learning & online & static\\
 features, probing & algorithm, runtime performance & neural networks
 and self-organising maps & offline & static\\
 
-\citeA{stergiou_heuristics_2008,stergiou_heuristics_2009,paparrizou_evaluating_2012} & constraints & search statistics & propagation method & clustering & online & static\\
+\citeA{stergiou_heuristics_2008,stergiou_heuristics_2009,paparrizou_evaluating_2012} & CSP & search statistics & propagation method & clustering & online & static\\
 
 \citeA{de_la_rosa_learning_2008,de_la_rosa_scaling_2011} & planning & instance
 features & algorithm & decision tree & online & static\\
@@ -328,10 +328,10 @@ combination of low-level heuristics & various & online & static\\
 \citeA{nikoli_instance-based_2009} & SAT & instance features & search strategy &
 nearest neighbour & offline & static\\
 
-\citeA{stamatatos_learning_2009} & constraints & probing & propagation method &
+\citeA{stamatatos_learning_2009} & CSP & probing & propagation method &
 clustering & offline & static\\
 
-\citeA{arbelaez_online_2009,arbelaez_continuous_2010} & constraints & instance features, search
+\citeA{arbelaez_online_2009,arbelaez_continuous_2010} & CSP & instance features, search
 statistics & search strategy & SVM & online & static\\
 
 \citeA{haim_restart_2009} & SAT & instance features & restart strategy and
@@ -345,7 +345,7 @@ static\\
 actions, resource allocation & performance simulations for different
 allocations & offline & static\\
 
-\citeA{xu_learning_2009} & constraints & instance features & algorithm &
+\citeA{xu_learning_2009} & CSP & instance features & algorithm &
 reinforcement learning & online & static\\
 
 \citeA{bougeret_combining_2009} & SAT & past performance & resource allocation &
@@ -375,19 +375,19 @@ Bayes classifier & online & static\\
 \citeA{kadioglu_isac_2010} & SAT, mixed integer programming, set covering &
 instance features & algorithm & clustering & offline & dynamic\\
 
-\citeA{gent_learning_2010} & constraints & instance features, probing & algorithm
+\citeA{gent_learning_2010} & CSP & instance features, probing & algorithm
 & decision trees & offline & static\\
 
 \citeA{gent_machine_2010} & software design & instance features & implementation
 & 19 different classifiers & offline & static\\
 
-\citeA{kotthoff_ensemble_2010} & constraints & instance features, probing &
+\citeA{kotthoff_ensemble_2010} & CSP & instance features, probing &
 algorithm & ensembles of classifiers & offline & static\\
 
 \citeA{ewald_selecting_2010} & simulation algorithms & past performance &
 portfolio & genetic algorithms & offline & dynamic\\
 
-\citeA{elsayed_synthesis_2010,elsayed_synthesis_2011} & constraints & instance
+\citeA{elsayed_synthesis_2010,elsayed_synthesis_2011} & CSP & instance
 features & search strategy & hand-crafted rules & online & dynamic\\
 
 \citeA{valenzano_simultaneously_2010} & search problems & - & algorithm &
@@ -403,8 +403,8 @@ ranking & na\"ive Bayes & offline & static\\
 algorithms & nearest neighbour, decision tree, SVM, na\"ive Bayes & offline &
 static\\
 
-\citeA{peng_population-based_2010} & numerical optimisation & past performance &
-resource allocation & optimisation & offline & static\\
+\citeA{peng_population-based_2010} & numerical optimization & past performance &
+resource allocation & optimization & offline & static\\
 
 \citeA{graff_practical_2010} & program induction & fitness function &
 runtime performance & regression & offline & static\\
@@ -417,7 +417,7 @@ low-level heuristics & genetic programming & online & static\\
 
 % 2011
 
-\citeA{tolpin_rational_2011} & constraints & search statistics & algorithm &
+\citeA{tolpin_rational_2011} & CSP & search statistics & algorithm &
 hand-crafted rules & online & static\\
 
 \citeA{malitsky_non-model-based_2011} & SAT & instance features & algorithm &
@@ -426,14 +426,14 @@ nearest neighbour & offline & static\\
 \citeA{kadioglu_algorithm_2011} & SAT & instance features & resource allocation &
 nearest neighbour & offline & static\\
 
-\citeA{kroer_feature_2011} & SAT, constraints & instance features & algorithm &
+\citeA{kroer_feature_2011} & SAT, CSP & instance features & algorithm &
 clustering & offline & dynamic\\
 
 \citeA{kotthoff_preliminary_2011,kotthoff_evaluation_2012} & SAT, QBF,
-constraints & instance features, probing & algorithm, runtime performance,
+CSP & instance features, probing & algorithm, runtime performance,
 ranking & 31 different machine learning algorithms & offline & static\\
 
-\citeA{gagliolo_algorithm_2010,gagliolo_algorithm_2011} & SAT, QBF, constraints
+\citeA{gagliolo_algorithm_2010,gagliolo_algorithm_2011} & SAT, QBF, CSP
 & past performance & resource allocation & reinforcement learning & online &
 static\\
 
@@ -449,7 +449,7 @@ algorithm & statistical models & online & static\\
 \citeA{helmert_fast_2011} & planning & past performance & resource allocation &
 statistical model & offline & static\\
 
-\citeA{kiziltan_classification-based_2011} & constraints & instance features &
+\citeA{kiziltan_classification-based_2011} & CSP & instance features &
 resource allocation & 8 classification algorithms, ridge regression & offline &
 static\\
 
@@ -464,11 +464,11 @@ algorithm & multi-armed bandits & online & static\\
 
 % 2012
 
-\citeA{kotthoff_hybrid_2012} & SAT, QBF, constraints & instance features,
+\citeA{kotthoff_hybrid_2012} & SAT, QBF, CSP & instance features,
 probing & algorithm & 5 regression algorithms, 2 classification
 algorithms & offline & static\\
 
-\citeA{yun_learning_2012} & constraints & instance features & portfolio &
+\citeA{yun_learning_2012} & CSP & instance features & portfolio &
 case-based reasoning, hand-crafted rules & offline & dynamic\\
 
 \citeA{hurley_adaptation_2012} & SAT & instance features & ranking & case-based
@@ -480,7 +480,7 @@ past performance & portfolio & statistical model & offline & static\\
 \citeA{malitsky_parallel_2012} & SAT & past performance & resource allocation &
 nearest neighbour & offline and online & static\\
 
-\citeA{bischl_algorithm_2012} & optimisation & instance features &
+\citeA{bischl_algorithm_2012} & optimization & instance features &
 algorithm & SVM & offline & static\\
 
 \citeA{veerapen_exploration-exploitation_2012} & Quadratic Assignment Problem
@@ -505,7 +505,7 @@ clustering & online & static\\
 \citeA{maratea_applying_2012,maratea_multi-engine_2013} & ASP & instance
 features & algorithm & classification & offline & static\\
 
-\citeA{munoz_meta-learning_2012} & optimisation & instance features, algorithm
+\citeA{munoz_meta-learning_2012} & optimization & instance features, algorithm
 parameters & runtime performance & neural network regression & offline &
 static\\
 
@@ -521,13 +521,16 @@ reinforcement learning & offline & static\\
 \citeA{pillay_study_2012} & bin packing & past performance & combination of
 low-level heuristics & genetic algorithm & offline & static\\
 
+\citeA{hu_intelligent_2012} & evolutionary algorithms & past performance &
+algorithm & hand-crafted rule & online & static\\
+
 % 2013
 
 \citeA{sabharwal_boosting_2013} & SAT & instance features & resource allocation
 and switch algorithm? & nearest neighbour and decision tree classification &
 offline and online & static\\
 
-\citeA{abell_features_2013} & black-box optimisation & instance features &
+\citeA{abell_features_2013} & black-box optimization & instance features &
 algorithm & clustering & offline & static\\
 
 \citeA{hutter_identifying_2013} & SAT, MIP, TSP & instance features and algorithm
@@ -537,7 +540,7 @@ networks, Gaussian processes, regression trees & offline & static\\
 \citeA{musliu_algorithm_2013} & graph colouring & instance features & algorithm &
 six classifiers & offline & static\\
 
-\citeA{amadini_empirical_2013} & constraints & instance features & algorithm &
+\citeA{amadini_empirical_2013} & CSP & instance features & algorithm &
 range of different approaches & offline & static\\
 
 \citeA{alhossaini_instance-specific_2013} & planning & instance features &
@@ -549,14 +552,14 @@ abstraction & MDP & online & static\\
 \citeA{malitsky_evolving_2013} & SAT & instance features & algorithm & clustering
 & online & static\\
 
-\citeA{mehta_lazy_2013} & constraints & instance features & algorithm &
+\citeA{mehta_lazy_2013} & CSP & instance features & algorithm &
 classification, regression and clustering & offline & static\\
 
 \citeA{malitsky_algorithm_2013} & SAT & instance features & algorithm &
-clustering & offline & static\\
+classification & offline & static\\
 
 \citeA{rayner_subset_2013} & combinatorial search & probing & subset of
-algorithms & optimisation & offline & static\\
+algorithms & optimization & offline & static\\
 
 \citeA{sun_pairwise_2013} & machine learning & past performance & ranking &
 pairwise rules and trees & offline & static\\
@@ -568,7 +571,7 @@ algorithm & nearest neighbour, random forests & offline & static\\
 decision rules & offline & static\\
 
 \citeA{wang_feature_2013} & feature selection & instance features & algorithm &
-nearest neighbour and optimisation & offline & static\\
+nearest neighbour and optimization & offline & static\\
 
 \citeA{king_autonomic_2013,king_network_2014} & power systems & instance
 features & algorithm & neural net, decision tree, random forest & offline &
@@ -577,13 +580,13 @@ static\\
 \citeA{yuen_which_2013} & evolutionary algorithms & past performance & algorithm
 & linear regression & online & static\\
 
-\citeA{loth_bandit-based_2013} & constraints & past performance &
+\citeA{loth_bandit-based_2013} & CSP & past performance &
 algorithm & reinforcement learning & online & static\\
 
 \citeA{simon_automatic_2013} & software design & instance features & algorithm &
 neural networks, decision trees & offline & dynamic\\
 
-\citeA{geschwender_selecting_2013,geschwender_portfolio_2016} & constraints &
+\citeA{geschwender_selecting_2013,geschwender_portfolio_2016} & CSP &
 instance features & algorithm & decision tree, neural network, naive Bayes & offline & static\\
 
 \citeA{nikolic_simple_2013} & SAT & instance features & algorithm & nearest
@@ -594,29 +597,29 @@ algorithm & Bayesian approach & online & static\\
 
 % 2014
 
-\citeA{amadini_portfolio_2014} & constraints & instance features & algorithm,
+\citeA{amadini_portfolio_2014} & CSP & instance features & algorithm,
 resource allocation & 5 different classifiers & offline and online & static\\
 
-\citeA{cauwet_algorithm_2014} & optimisation & past performance & resource
+\citeA{cauwet_algorithm_2014} & optimization & past performance & resource
 allocation & statistical model & online & static\\
 
 \citeA{hoos_aspeed_2014} & ASP, SAT, QBF, CSP & past performance & resource
 allocation & answer set programming & offline & static\\
 
-\citeA{hurley_proteus_2014} & CSP & instance features & instance encoding,
+\citeA{hurley_proteus_2014} & CSP & instance features & instance representation,
 algorithm & classification, regression, clustering & offline & static\\
 
 \citeA{kotthoff_ranking_2014} & CSP, SAT, QBF & instance features & ranking &
 classification, regression, meta-learning & offline & static\\
 
-\citeA{tang_population-based_2014} & numerical optimisation & past performance &
-algorithm portfolio & optimisation & offline & dynamic\\
+\citeA{tang_population-based_2014} & numerical optimization & past performance &
+algorithm portfolio & optimization & offline & dynamic\\
 
 \citeA{fawcett_improved_2014} & planning & instance features & runtime &
 regression & offline & static\\
 
 \citeA{amadini_sequential_2014,amadini_sunny_2014,amadini_sunny-cp_2015,amadini_multicore_2015} &
-constraints & instance features & resource allocation
+CSP & instance features & resource allocation
 & nearest neighbour & offline & static\\
 
 \citeA{blet_experimental_2014} & CSP & instance features & algorithm & M5P
@@ -697,12 +700,12 @@ classification, regression, pairwise regression & offline & static\\
 algorithm & reinforcement learning & online & static\\
 
 \citeA{oentaryo_algorithm_2015} & SAT & instance features and past performance &
-ranking & stochastic optimisation & offline & static\\
+ranking & stochastic optimization & offline & static\\
 
-\citeA{chu_learning_2015} & constraints & instance features & algorithm &
+\citeA{chu_learning_2015} & CSP & instance features & algorithm &
 partial least squares regression & offline & static\\
 
-\citeA{balafrej_multi-armed_2015} & constraints & past performance & propagation
+\citeA{balafrej_multi-armed_2015} & CSP & past performance & propagation
 method & multi-armed bandits & online & static\\
 
 \citeA{luo_fast_2015} & stencil computation & instance features & solution space
@@ -725,8 +728,9 @@ allocation & multi-armed bandits & online & static\\
 ranking & linear regression, nearest neighbour, regression trees, neural
 network, SVM & offline & static\\
 
-\citeA{yuen_sequential_2015,lou_sequential_2017} & black-box optimisation &
-instance features & algorithm & nearest neighbour & offline & static\\
+\citeA{yuen_sequential_2015,lou_sequential_2017,yuen_selecting_2018} & black-box
+optimization & instance features & algorithm & nearest neighbour & offline &
+static\\
 
 % 2016
 
@@ -742,8 +746,9 @@ various classifiers & offline & static\\
 \citeA{bontrager_matching_2016} & games & instance features & algorithm &
 hierarchical clustering and decision trees & offline & static\\
 
-\citeA{koitz_improving_2016,koitz_exploiting_2016} & abductive diagnosis & instance features &
-algorithm & various classifiers & offline & static\\
+\citeA{koitz_improving_2016,koitz_exploiting_2016,koitz-hristov_applying_2018} &
+abductive diagnosis & instance features & algorithm & various classifiers &
+offline & static\\
 
 \citeA{minot_using_2016} & sum coloring problem & instance features & algorithm &
 hand-crafted rule & offline & static\\
@@ -752,8 +757,8 @@ hand-crafted rule & offline & static\\
 algorithm &  classification, regression, pairwise classification and regression
 & offline & static\\
 
-\citeA{degroote_reinforcement_2016} & ASlib & instance features & algorithm &
-random forest regression & online & static\\
+\citeA{degroote_reinforcement_2016,degroote_regression-based_2018} & ASlib &
+instance features & algorithm & random forest regression & offline & static\\
 
 \citeA{gonard_algorithm_2016} & ASlib & instance features & resource allocation
 & random forest and nearest neighbour regression & offline & static\\
@@ -767,7 +772,7 @@ multiplication & instance features & runtime performance & SVM, neural network &
 offline & static\\
 
 \citeA{dutt_plan_2016} & database query processing & instance features & resource
-allocation & optimisation & offline & static\\
+allocation & optimization & offline & static\\
 
 \citeA{liberto_dash_2016} & MIP & instance features, search statistics &
 algorithm & clustering & online & static\\
@@ -784,6 +789,13 @@ ranking & SVM & online & static\\
 \citeA{cunha_selecting_2016,cunha_recommending_2017,cunha_metalearning_2018} &
 recommender systems & instance features, probing & algorithm & classification &
 offline & static\\
+
+\citeA{cui_recommendation_2016,chu_adaptive_2019} & evolutionary algorithms &
+instance features & ranking & nearest neighbour, neural network & online &
+static\\
+
+\citeA{cui_short-term_2016} & building energy optimization & instance features &
+ranking & neural network & offline & static\\
 
 % 2017
 
@@ -814,8 +826,8 @@ algorithm & logistic regression & online & static\\
 \citeA{fitzgerald_analysing_2017} & CSP, SAT, combinatorial auctions & past
 performance & algorithm & reinforcement learning & online & static\\
 
-\citeA{beham_instance-based_2017} & Quadratic Assignment Problem & instance
-features, probing & ranking & nearest neighbour & offline & static\\
+\citeA{beham_instance-based_2017,beham_algorithm_2018} & Quadratic Assignment
+Problem & instance features, probing & ranking & nearest neighbour & offline & static\\
 
 \citeA{selvaraj_pce-based_2017} & optical network design & instance features &
 algorithm & - & offline & static\\
@@ -831,6 +843,47 @@ reinforcement learning & online & static\\
 
 \citeA{he_bayesian_2017} & black-box optimization & past performance & algorithm
 & Bayesian approach & offline & static\\
+
+%2018
+
+\citeA{fuentetaja_meta-search_2018} & planning & past performance & instance
+representation, algorithm & optimization & offline & dynamic\\
+
+\citeA{jana_landscape_2018} & protein structure prediction & instance features &
+algorithm & hand-crafted rule & offline & static\\
+
+\citeA{jankee_design_2018} & black-box optimization & past performance &
+algorithm & bandit algorithms & offline & static\\
+
+\citeA{georges_feature-based_2018} & MIP & instance features, probing &
+portfolio & classification, regression, boosting & offline & static and dynamic\\
+
+\citeA{silva_strategy_2018} & games & instance features & algorithm &
+logistic regression & online & dynamic\\
+
+\citeA{degroote_applying_2018} & Generalized Assignment Problem & instance
+features & algorithm & random forest & offline & static\\
+
+\citeA{gudu_combinatorial_2018} & combinatorial auctions & instance features &
+algorithm & auto-sklearn & offline & static\\
+
+\citeA{elmandouh_guiding_2018} & formal verification & instance features &
+resource allocation & classification & offline & static\\
+
+\citeA{ansotegui_self-configuring_2018} & CSP & instance features & resource
+allocation & classification & offline & static\\
+
+\citeA{hoos_portfolio-based_2018} & QBF & instance features & algorithm &
+autofolio & offline & static\\
+
+\citeA{nikolic_portfolio_2018} & theorem proving & instance features &
+algorithm, runtime performance & classification, regression & offline & static\\
+
+\citeA{deng_automatic_2018} & classification & instance features & algorithm &
+clustering & offline & static\\
+
+\citeA{wang_wombit_2018} & CSP & instance features & algorithm & decision tree &
+offline & static\\
 
 \end{longtable}
 \end{landscape}
